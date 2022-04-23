@@ -1,0 +1,5 @@
+Don't try to create an object of an abstract class.
+If we have an abstract class we cannot make it final(Illegal combination of modifiers error)
+We cannot make an abstract method final(Illegal combination of modifiers error)
+If we have an abstract class we cannot make it static
+We cannot make an abstract method static(Illegal combination of modifiers error)

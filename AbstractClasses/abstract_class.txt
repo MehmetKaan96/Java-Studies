@@ -1,0 +1,34 @@
+There are two types of classes in java
+1-Abstract
+2-Concrete
+
+Difference between concrete and abstract class is that you can create
+objects of concrete class, but you cannot create an object of an abstract 
+class but you can create a reference.
+
+Consider Super is an abstract class.
+✓Super s1;(allowed)//this is a reference of a super class
+X s1 = new Super();(it's not allowed) 
+
+Consider Sub is a concrete class.
+✓ Sub s2 = new Sub();(it's allowed)
+
+---------------------------------------------------------------------
+Abstract Method and Abstract Class
+
+What is abstract method: A method which is not having a body
+Example:
+abstract void method();//No {} here
+
+What is abstract class: If a class is having at least one abstract method
+than class also become abstract(if a class has zero abstract method 
+then it can also become a abstract class)
+If any class is inheriting from an abstract class, than that class is also
+become an abstract class.(To become a concrete class the inheriting class
+should override the abstract method(s))
+
+-----------------------------------------------------------------------
+Why we need abstract classes
+
+to provide common method implementation to all the subclasses or to 
+provide default implementation.
