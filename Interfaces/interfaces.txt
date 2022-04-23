@@ -1,0 +1,10 @@
+What is interface?
+Interfaces is completely used for achieving polymorphism.It does not have
+anything to give to the subclasses.
+
+So if we want to achive only polymorphism(we don't want to borrow anything
+from a class), then we use interfaces.
+
+
+
+

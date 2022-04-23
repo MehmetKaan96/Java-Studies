@@ -1,0 +1,8 @@
+Whenever we give any identifier, we should define it with capital letter and
+these identifiers are by default static and final.
+
+don't write a body for a method.
+
+static methods inside interfaces can have body
+
+interfaces can extend from another interfaces
